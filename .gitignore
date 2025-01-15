@@ -133,3 +133,7 @@ dmypy.json
 .deployment
 
 .idea
+
+__pycache__/
+*.pyc
+*.pyo

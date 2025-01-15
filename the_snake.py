@@ -15,7 +15,7 @@ BOARD_BACKGROUND_COLOR = (0, 0, 0)
 BORDER_COLOR = (93, 216, 228)
 APPLE_COLOR = (255, 0, 0)
 SNAKE_COLOR = (0, 255, 0)
-SPEED = 20
+SPEED = 15
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
 pygame.display.set_caption('Змейка')
@@ -34,7 +34,7 @@ class GameObject:
 
 
 class Apple(GameObject):
-    """Яблока в игре."""
+    """Яблоко в игре."""
 
     def __init__(self) -> None:
         super().__init__()
